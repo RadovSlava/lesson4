@@ -1,0 +1,55 @@
+/* div {
+  font-size: 20px;
+  width: 500px;
+  background-color: yellow;
+}
+
+html {
+  font-size: 18px;
+}
+
+.rem {
+  display: inline-block;
+}
+
+.em {
+  padding: 2em;
+  font-size: 5em;
+  margin-bottom: 1em;
+  background-color: grey;
+}
+
+.rem {
+  padding: 3rem;
+  background-color: cyan;
+}
+
+.child {
+  background-color: red;
+  width: 50%;
+} */
+
+nav {
+  position: sticky;
+  top: 100px;
+}
+
+.container {
+  margin-top: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.absolute {
+  position: absolute;
+  border: 3px solid red;
+  bottom: 0;
+  right: 0;
+}
+
+.relative {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  border: 2px solid blue;
+}
